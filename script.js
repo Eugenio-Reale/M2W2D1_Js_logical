@@ -138,14 +138,7 @@ console.log("Your bill is: " + totalShoppingCart + "$");
 */
 
 let isMale = prompt("Insert 'true' if you are a male ");
-let gender = undefined;
-isMale = Boolean(isMale);
-if(isMale){
-  gender="male";
-}
-else {
-  gender="female";
-}
+let gender = isMale? "Male" : "Female";
 console.log("My supercomputer analysis says you are probabily " + gender);
 
 /* ESERCIZIO EXTRA 5
