@@ -137,7 +137,7 @@ console.log("Your bill is: " + totalShoppingCart + "$");
   Es. se isMale e' vero, il valore di gender deve essere "male"
 */
 
-let isMale = prompt("Insert 'true' if you are a male ");
+let isMale = true;
 let gender = isMale? "Male" : "Female";
 console.log("My supercomputer analysis says you are probabily " + gender);
 
